@@ -1,0 +1,77 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Industrial IoT: the Tennessee benchmark study case}
+\author{Breno Esteves Lamassa}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+- Motivation
+
+- Previous works, cite the Fireman project
+
+- Small bibliografic revision
+
+\subsection{Tennessee Benchmark}
+
+- Explain the process and the dataset provided
+
+- Explain the flaws and why this benchmark exists
+
+\subsection{Analysis of the chemical process as a system}
+
+Apply the framework studied \textbf{PO Peculiar Operation, C1 Conditions of Production, C2 Conditions of Reproduction, C3 External Conditions}
+
+\subsection{Information: characterization of the variables of the datasets}
+
+Remember to list the types of data and types of information. If possible, classify all features on the dataset in those categories.
+
+\section{Identification of Rare Events via IoT}
+
+Cite again FIREMAN, explore some other resources on how Industrial IoT could be beneficial.
+
+\subsection{Tools used}
+Cite articles, the work of Gustavo at UFMG and that guy that proposed first the usage of PCA in this dataset (I think it's \textit{Russel et al.})
+
+Cite also Machine Learning, big data and also other concepts presented at the work packages. Check the notes from the meetings and previous works from the members.
+
+
+\subsection{Flaws identification via PCA and Hotelling stats}
+
+Reproduce belisario et al.
+
+\subsection{Flaws identification via Probability Theory}
+
+Find the distribution that each of the feature belongs to \textbf{in the normal data.} Than, apply statistical tests for each variable in the flaws to check if it accusses any rare event.
+
+\subsection{Other methods}
+Based on the paper \textit{Data Mining and IoT}, apply some of the algorithmns available.
+
+\section{IoT System proposal}
+
+Design the system that will apply the rare events identification algorithms. Highlight that the idea of IoT is not only receiving data (the sensors), building a reality (structure of awareness) and providing the ability to act/interect/intervene on the system.
+
+\subsection{Network}
+
+Remember that the dataset only represents the sensors. Add to the network a receiving hub, decision making and processing node. Maybe even an actor in the system.
+
+Understand the nature of the process. Maybe center the processing node in other subnodes related to the stage/timeline (boiler sensors, etc etc).
+
+There are manipulated variables!! The/A processing node should be responsible in creating them.
+
+***Too many nodes? Too much data connected to one node? WHat are the consequences???
+
+\subsection{Reflexive-active systems}
+
+Discuss the question above. What is the problems in having too many supporting realities? Is there loss of info? \textit{Interesting opportunity to apply Sheldon Entropy Theory}.
+
+\subsection{Game Theory and Decision Making}
+
+
+
+\end{document}
+
